@@ -11,6 +11,7 @@ public class Main {
             myShape = new Circle(Double.parseDouble(args[0]));
         } else {
             myShape = new Rectangle((Double.parseDouble(args[0])), Double.parseDouble(args[1]));
+
         }
         System.out.println(myShape.area());
     }
